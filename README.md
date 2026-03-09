@@ -78,7 +78,7 @@ lumina-image-editor/
 **Abubakr Abbas**
 
 - GitHub: [@AbubakrAbbas](https://github.com/AbubakrAbbas)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- LinkedIn: [Abubakr Abbas](https://www.linkedin.com/in/abubakr-abbas-294079396)
 
 ---
 
