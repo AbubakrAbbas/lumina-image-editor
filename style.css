@@ -355,24 +355,54 @@ header {
 }
 
 /* ── RESPONSIVE ── */
+/* ── RESPONSIVE ── */
 @media (max-width: 700px) {
   .app {
     grid-template-columns: 1fr;
     grid-template-rows: 56px 1fr auto;
+    height: auto;
+    min-height: 100vh;
   }
-  .sidebar {
-    border-left: none;
-    border-top: 1px solid var(--border);
-    max-height: 50vh;
-  }
+
   html,
   body {
     overflow: auto;
   }
-  .app {
-    height: auto;
+
+  header {
+    padding: 0 16px;
   }
+
+  .header-tagline {
+    display: none;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
   .canvas-area {
-    min-height: 260px;
+    min-height: 300px;
+    padding: 16px;
+  }
+
+  #img-canvas {
+    max-width: 100%;
+    max-height: 300px;
+  }
+
+  .sidebar {
+    border-left: none;
+    border-top: 1px solid var(--border);
+    max-height: none;
+  }
+
+  .filters-scroll {
+    max-height: 300px;
+  }
+
+  .btn {
+    padding: 8px 12px;
+    font-size: 11px;
   }
 }
